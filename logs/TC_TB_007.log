@@ -1,0 +1,11 @@
+2025-07-31 23:22:41,036 - INFO - Starting Browser Session...
+2025-07-31 23:22:41,641 - INFO - Browser Launch Successfully.
+2025-07-31 23:22:41,917 - INFO - URL Open Successfully.
+2025-07-31 23:22:41,999 - INFO - Ticket Number Enter successfully.
+2025-07-31 23:22:42,036 - INFO - Ticket Class Platinum - $500 selected.
+2025-07-31 23:22:42,085 - INFO - Registered User - 'Yes' selected.
+2025-07-31 23:22:42,139 - INFO - Valid Promo Code Enter successfully.
+2025-07-31 23:22:42,187 - INFO - Click on Book Now button successfully.
+2025-07-31 23:22:42,209 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-07-31 23:22:42,209 - INFO - Script Complete.
+2025-07-31 23:22:42,314 - INFO - End Browser Session...

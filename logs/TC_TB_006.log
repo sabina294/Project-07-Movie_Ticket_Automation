@@ -9,3 +9,25 @@
 2025-08-02 20:11:24,902 - INFO - Test Failed. Error Message Mismatch.
 2025-08-02 20:11:24,903 - INFO - Script Complete.
 2025-08-02 20:11:24,994 - INFO - End Browser Session...
+2025-08-07 18:32:27,431 - INFO - Starting Browser Session...
+2025-08-07 18:33:54,443 - INFO - Browser Launch Successfully.
+2025-08-07 18:33:56,084 - INFO - URL Open Successfully.
+2025-08-07 18:33:56,170 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:33:56,223 - INFO - Ticket Class Platinum - $750 selected.
+2025-08-07 18:33:56,252 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:33:56,288 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:33:56,333 - INFO - Click on Book Now button successfully.
+2025-08-07 18:33:56,359 - INFO - Test Failed. Error Message Mismatch.
+2025-08-07 18:33:56,510 - INFO - Script Complete.
+2025-08-07 18:33:56,607 - INFO - End Browser Session...
+2025-08-07 19:43:55,871 - INFO - Starting Browser Session...
+2025-08-07 19:43:56,441 - INFO - Browser Launch Successfully.
+2025-08-07 19:43:57,156 - INFO - URL Open Successfully.
+2025-08-07 19:43:57,267 - INFO - Ticket Number Enter successfully.
+2025-08-07 19:43:57,390 - INFO - Ticket Class Platinum - $750 selected.
+2025-08-07 19:43:57,433 - INFO - Registered User - 'Yes' selected.
+2025-08-07 19:43:57,468 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 19:43:57,510 - INFO - Click on Book Now button successfully.
+2025-08-07 19:43:57,533 - INFO - Test Failed. Error Message Mismatch.
+2025-08-07 19:43:57,688 - INFO - Script Complete.
+2025-08-07 19:43:57,785 - INFO - End Browser Session...

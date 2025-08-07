@@ -82,6 +82,7 @@ if expected_error_message == actual_error_message:
     logging.info("Test Passed. Error Message Display Properly.")
 else:
     logging.info("Test Failed. Error Message Mismatch.")
+    driver.save_screenshot("./Screenshots/Bug_TC_TB_06.png")
 
 
 logging.info("Script Complete.")

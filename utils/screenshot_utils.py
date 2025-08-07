@@ -21,5 +21,3 @@ def capture_full_page_screenshot(driver, screenshot_name):
 
     # Take a full-page screenshot
     full_body_element.screenshot(screenshot_path)
-    # Screenshot
-    capture_full_page_screenshot(driver, "TC_TB_01")

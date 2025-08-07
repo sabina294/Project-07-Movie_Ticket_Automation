@@ -2,6 +2,8 @@ import logging
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+from utils.screenshot_utils import capture_full_page_screenshot
+
 
 # setup logging
 logging.basicConfig(
@@ -72,4 +74,7 @@ def test_tc_tb_001(browser_config):
         logging.info("Test Passed. Error Message Display Properly.")
     else:
         logging.info("Test Failed. Error Message Mismatch.")
-        driver.save_screenshot("Bug_TC_TB_06.png")
+        # Screenshot
+        capture_full_page_screenshot(driver, "TC_TB_02")
+
+    logging.info("TC_TB_002 Completed..")

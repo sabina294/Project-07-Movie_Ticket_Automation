@@ -2,6 +2,8 @@ import logging
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+from utils.screenshot_utils import capture_full_page_screenshot
+
 
 # setup logging
 logging.basicConfig(
@@ -73,4 +75,7 @@ def test_tc_tb_001(browser_config):
         logging.info("Test Passed. Expected Final price match with Actual Final Price.")
     else:
         logging.info("Test Failed. Expected Final Price does not match with Actual Final Price.")
-        driver.save_screenshot("Bug_TC_TB_06.png")
+        # Screenshot
+        capture_full_page_screenshot(driver, "TC_TB_01")
+
+    logging.info("TC_TB_001 Completed..")

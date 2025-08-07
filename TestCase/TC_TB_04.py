@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 
 # setup logging
 logging.basicConfig(
-    filename="logs/TC_TB_006.log",
+    filename="../logs/TC_TB_004.log",
     level= logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -28,7 +28,7 @@ logging.info("URL Open Successfully.")
 # 2. Enter a valid Number of Tickets
 try:
     number_of_tickets = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#tickets")))
-    number_of_tickets.send_keys("2")
+    number_of_tickets.send_keys("7")
     logging.info("Ticket Number Enter successfully.")
 
 except Exception as e:
@@ -38,8 +38,8 @@ except Exception as e:
 try:
     ticket_class = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#price")))
     ticket_class_dropdown = Select(ticket_class)
-    ticket_class_dropdown.select_by_value("750")
-    logging.info("Ticket Class Platinum - $750 selected.")
+    ticket_class_dropdown.select_by_value("1000")
+    logging.info("Ticket Class Platinum - $1000 selected.")
 
 except Exception as e:
     logging.info("Element 'Ticket Class' not found with Explicit wait.")
@@ -49,8 +49,8 @@ try:
     registered_user = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#user")))
     registered_user_dropdown = Select(registered_user)
 
-    registered_user_dropdown.select_by_value("yes")
-    logging.info("Registered User - 'Yes' selected.")
+    registered_user_dropdown.select_by_value("no")
+    logging.info("Registered User - 'No' selected.")
 
 except Exception as e:
     logging.info("Element 'Register User' not found with Explicit wait.")
@@ -73,16 +73,16 @@ try:
 except Exception as e:
     logging.info("Element 'Book now' button not found with Explicit wait.")
 
-# Validate Error Message
-expected_error_message = "Please enter a $1050."
-actual_error_massage_element =  wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(2) > div:nth-child(6) > strong:nth-child(6)")))
-actual_error_message = actual_error_massage_element.text
+# Validate Ticket Price
+expected_final_price = "Final Amount: 6650.00"
+actual_final_price_element =  wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(2) > div:nth-child(6) > strong:nth-child(6)")))
+actual_final_price = actual_final_price_element.text
 
-if expected_error_message == actual_error_message:
-    logging.info("Test Passed. Error Message Display Properly.")
+if expected_final_price == actual_final_price:
+    logging.info("Test Passed. Expected Final price match with Actual Final Price.")
 else:
-    logging.info("Test Failed. Error Message Mismatch.")
-    driver.save_screenshot("./Screenshots/Bug_TC_TB_06.png")
+    logging.info("Test Failed. Expected Final Price does not match with Actual Final Price.")
+
 
 
 logging.info("Script Complete.")

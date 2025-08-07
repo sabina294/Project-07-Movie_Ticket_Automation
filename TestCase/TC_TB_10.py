@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 
 # setup logging
 logging.basicConfig(
-    filename="logs/TC_TB_12.log",
+    filename="../logs/TC_TB_10.log",
     level= logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -38,8 +38,8 @@ except Exception as e:
 try:
     ticket_class = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#price")))
     ticket_class_dropdown = Select(ticket_class)
-    ticket_class_dropdown.select_by_value("750")
-    logging.info("Ticket Class Platinum - $750 selected.")
+    ticket_class_dropdown.select_by_value("1000")
+    logging.info("Ticket Class Platinum - $1000 selected.")
 
 except Exception as e:
     logging.info("Element 'Ticket Class' not found with Explicit wait.")
@@ -74,7 +74,7 @@ except Exception as e:
     logging.info("Element 'Book now' button not found with Explicit wait.")
 
 # Validate Ticket Price
-expected_final_price = "Final Amount: 1050.00"
+expected_final_price = "Final Amount: 1400.00."
 actual_final_price_element =  wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(2) > div:nth-child(6) > strong:nth-child(6)")))
 actual_final_price = actual_final_price_element.text
 

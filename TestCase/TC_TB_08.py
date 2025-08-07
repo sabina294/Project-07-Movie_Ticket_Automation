@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 
 # setup logging
 logging.basicConfig(
-    filename="logs/TC_TB_002.log",
+    filename="../logs/TC_TB_008.log",
     level= logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -28,7 +28,7 @@ logging.info("URL Open Successfully.")
 # 2. Enter a valid Number of Tickets
 try:
     number_of_tickets = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#tickets")))
-    number_of_tickets.send_keys("11")
+    number_of_tickets.send_keys("0")
     logging.info("Ticket Number Enter successfully.")
 
 except Exception as e:
@@ -73,15 +73,16 @@ try:
 except Exception as e:
     logging.info("Element 'Book now' button not found with Explicit wait.")
 
-# Validate Error Message
-expected_error_message = "Please enter a number between 1 and 10."
-actual_error_massage_element =  wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#ticketError")))
-actual_error_message = actual_error_massage_element.text
+# Validate Ticket Price
+expected_final_price = "Please enter a number between 1 and 10."
+actual_final_price_element =  wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#ticketError")))
+actual_final_price = actual_final_price_element.text
 
-if expected_error_message == actual_error_message:
-    logging.info("Test Passed. Error Message Display Properly.")
+if expected_final_price == actual_final_price:
+    logging.info("Test Passed. Expected Final price match with Actual Final Price.")
 else:
-    logging.info("Test Failed. Error Message Mismatch.")
+    logging.info("Test Failed. Expected Final Price does not match with Actual Final Price.")
+
 
 
 logging.info("Script Complete.")

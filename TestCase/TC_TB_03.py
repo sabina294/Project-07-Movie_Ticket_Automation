@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 
 # setup logging
 logging.basicConfig(
-    filename="logs/TC_TB_007.log",
+    filename="../logs/TC_TB_003.log",
     level= logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -28,7 +28,7 @@ logging.info("URL Open Successfully.")
 # 2. Enter a valid Number of Tickets
 try:
     number_of_tickets = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#tickets")))
-    number_of_tickets.send_keys("")
+    number_of_tickets.send_keys("3")
     logging.info("Ticket Number Enter successfully.")
 
 except Exception as e:
@@ -49,7 +49,7 @@ try:
     registered_user = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#user")))
     registered_user_dropdown = Select(registered_user)
 
-    registered_user_dropdown.select_by_value("no")
+    registered_user_dropdown.select_by_value("yes")
     logging.info("Registered User - 'Yes' selected.")
 
 except Exception as e:
@@ -58,7 +58,7 @@ except Exception as e:
 # 5. Enter a valid Promo Code
 try:
     promo_code = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#promo")))
-    promo_code.send_keys("")
+    promo_code.send_keys("PROMO2026")
     logging.info("Valid Promo Code Enter successfully.")
 
 except Exception as e:
@@ -74,8 +74,8 @@ except Exception as e:
     logging.info("Element 'Book now' button not found with Explicit wait.")
 
 # Validate Ticket Price
-expected_final_price = "Please enter a number between 1 and 10."
-actual_final_price_element =  wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#ticketError")))
+expected_final_price = "Final Amount: 1350.00"
+actual_final_price_element =  wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(2) > div:nth-child(6) > strong:nth-child(6)")))
 actual_final_price = actual_final_price_element.text
 
 if expected_final_price == actual_final_price:

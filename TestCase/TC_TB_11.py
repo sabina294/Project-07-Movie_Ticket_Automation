@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import Select
 
 # setup logging
 logging.basicConfig(
-    filename="logs/TC_TB_003.log",
+    filename="../logs/TC_TB_11.log",
     level= logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -28,7 +28,7 @@ logging.info("URL Open Successfully.")
 # 2. Enter a valid Number of Tickets
 try:
     number_of_tickets = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#tickets")))
-    number_of_tickets.send_keys("3")
+    number_of_tickets.send_keys("2")
     logging.info("Ticket Number Enter successfully.")
 
 except Exception as e:
@@ -38,8 +38,8 @@ except Exception as e:
 try:
     ticket_class = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#price")))
     ticket_class_dropdown = Select(ticket_class)
-    ticket_class_dropdown.select_by_value("500")
-    logging.info("Ticket Class Platinum - $500 selected.")
+    ticket_class_dropdown.select_by_value("750")
+    logging.info("Ticket Class Platinum - $750 selected.")
 
 except Exception as e:
     logging.info("Element 'Ticket Class' not found with Explicit wait.")
@@ -58,7 +58,7 @@ except Exception as e:
 # 5. Enter a valid Promo Code
 try:
     promo_code = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#promo")))
-    promo_code.send_keys("PROMO2026")
+    promo_code.send_keys("<script>alert('XSS')</script>")
     logging.info("Valid Promo Code Enter successfully.")
 
 except Exception as e:

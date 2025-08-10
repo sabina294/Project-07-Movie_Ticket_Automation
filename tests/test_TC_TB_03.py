@@ -3,8 +3,8 @@ from utils.screenshot_utils import capture_full_page_screenshot
 from pages.booking_page import BookingPage
 
 
-def test_tc_tb_002(browser_config):
-    logging.info("TC_TB_002 Started..")
+def test_tc_tb_003(browser_config):
+    logging.info("TC_TB_003 Started..")
     driver, wait = browser_config
 
     # create object for BookingPage class
@@ -19,8 +19,8 @@ def test_tc_tb_002(browser_config):
 
     # 3. Select valid Ticket Class
     try:
-        booking_page.select_ticket_class("1500")
-        logging.info("Ticket Class Platinum - $1500 selected.")
+        booking_page.select_ticket_class("750")
+        logging.info("Ticket Class Silver - $750 selected.")
     except Exception as e:
         logging.info("Element 'Ticket Class' not found with Explicit wait.")
 
@@ -58,6 +58,6 @@ def test_tc_tb_002(browser_config):
     else:
         logging.info("Test Failed. Expected Error Message not match with Actual Error Message.")
         # Screenshot
-        capture_full_page_screenshot(driver, "TC_TB_02")
+        capture_full_page_screenshot(driver, "TC_TB_03")
 
-    logging.info("TC_TB_002 Completed..")
+    logging.info("TC_TB_003 Completed..")

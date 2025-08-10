@@ -1,4 +1,7 @@
 import logging
+
+import pytest
+
 from utils.screenshot_utils import capture_full_page_screenshot
 from pages.booking_page import BookingPage
 
@@ -16,6 +19,7 @@ def test_tc_tb_001(browser_config):
         logging.info("Ticket Number Enter successfully.")
     except Exception as e:
         logging.info("Element 'Number of Tickets' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Ticket Number !!!")
 
     # 3. Select valid Ticket Class
     try:
@@ -23,6 +27,7 @@ def test_tc_tb_001(browser_config):
         logging.info("Ticket Class Silver - $750 selected.")
     except Exception as e:
         logging.info("Element 'Ticket Class' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Ticket Class !!!")
 
     # 4. Select valid registered user
     try:
@@ -31,6 +36,7 @@ def test_tc_tb_001(browser_config):
 
     except Exception as e:
         logging.info("Element 'Register User' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Register User !!!")
 
     # 5. Enter a valid Promo Code
     try:
@@ -39,6 +45,7 @@ def test_tc_tb_001(browser_config):
 
     except Exception as e:
         logging.info("Element 'Promo Code' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Promo Code !!!")
 
     # 6. Click on the "Book Now" button.
     try:
@@ -47,6 +54,7 @@ def test_tc_tb_001(browser_config):
 
     except Exception as e:
         logging.info("Element 'Book now' button not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Book Now Button !!!")
 
 
     # Validate Ticket Price

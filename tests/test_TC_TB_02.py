@@ -1,6 +1,7 @@
 import logging
 from utils.screenshot_utils import capture_full_page_screenshot
 from pages.booking_page import BookingPage
+import pytest
 
 
 def test_tc_tb_002(browser_config):
@@ -16,6 +17,7 @@ def test_tc_tb_002(browser_config):
         logging.info("Ticket Number Enter successfully.")
     except Exception as e:
         logging.info("Element 'Number of Tickets' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Ticket Number !!!")
 
     # 3. Select valid Ticket Class
     try:
@@ -23,6 +25,7 @@ def test_tc_tb_002(browser_config):
         logging.info("Ticket Class Platinum - $1500 selected.")
     except Exception as e:
         logging.info("Element 'Ticket Class' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Ticket Class !!!")
 
     # 4. Select valid registered user
     try:
@@ -31,6 +34,7 @@ def test_tc_tb_002(browser_config):
 
     except Exception as e:
         logging.info("Element 'Register User' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Ticket Class !!!")
 
     # 5. Enter a valid Promo Code
     try:
@@ -39,6 +43,7 @@ def test_tc_tb_002(browser_config):
 
     except Exception as e:
         logging.info("Element 'Promo Code' not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Register User !!!")
 
     # 6. Click on the "Book Now" button.
     try:
@@ -47,6 +52,7 @@ def test_tc_tb_002(browser_config):
 
     except Exception as e:
         logging.info("Element 'Book now' button not found with Explicit wait.")
+        pytest.fail("Test Failed.Bug found for Promo Code !!!")
 
 
     # Validate Ticket Number error message
@@ -59,5 +65,6 @@ def test_tc_tb_002(browser_config):
         logging.info("Test Failed. Expected Error Message not match with Actual Error Message.")
         # Screenshot
         capture_full_page_screenshot(driver, "TC_TB_02")
+        pytest.fail("Test Failed.Bug found for Book Now Button !!!")
 
     logging.info("TC_TB_002 Completed..")

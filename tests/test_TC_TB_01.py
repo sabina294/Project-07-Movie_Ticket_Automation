@@ -1,3 +1,4 @@
+
 import logging
 import pytest
 from utils.screenshot_utils import capture_full_page_screenshot

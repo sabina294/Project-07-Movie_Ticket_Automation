@@ -1,12 +1,11 @@
 import logging
-
 import pytest
-
 from utils.screenshot_utils import capture_full_page_screenshot
 from pages.booking_page import BookingPage
+from utils.data_loader import load_booking_test_data
 
-
-def test_tc_tb_003(browser_config):
+@pytest.mark.parametrize("test_case",load_booking_test_data("../data/booking_test_data_invalid.json"))
+def test_tc_tb_002(browser_config, test_case):
     logging.info("TC_TB_003 Started..")
     driver, wait = browser_config
 
@@ -15,7 +14,7 @@ def test_tc_tb_003(browser_config):
 
     # 2. Enter a valid Number of Tickets
     try:
-        booking_page.enter_number_of_tickets(11)
+        booking_page.enter_number_of_tickets(test_case["tickets"])
         logging.info("Ticket Number Enter successfully.")
     except Exception as e:
         logging.info("Element 'Number of Tickets' not found with Explicit wait.")
@@ -23,29 +22,29 @@ def test_tc_tb_003(browser_config):
 
     # 3. Select valid Ticket Class
     try:
-        booking_page.select_ticket_class("750")
-        logging.info("Ticket Class Silver - $750 selected.")
+        booking_page.select_ticket_class(test_case["class_value"])
+        logging.info("Ticket Class Platinum - $1500 selected.")
     except Exception as e:
         logging.info("Element 'Ticket Class' not found with Explicit wait.")
         pytest.fail("Test Failed.Bug found for Ticket Class !!!")
 
     # 4. Select valid registered user
     try:
-        booking_page.select_registered_user("yes")
+        booking_page.select_registered_user(test_case["user_value"])
         logging.info("Registered User - 'Yes' selected.")
 
     except Exception as e:
         logging.info("Element 'Register User' not found with Explicit wait.")
-        pytest.fail("Test Failed.Bug found for Register User !!!")
+        pytest.fail("Test Failed.Bug found for Ticket Class !!!")
 
     # 5. Enter a valid Promo Code
     try:
-        booking_page.enter_promo_code("PROMO2025")
+        booking_page.enter_promo_code(test_case["promo_code"])
         logging.info("Valid Promo Code Enter successfully.")
 
     except Exception as e:
         logging.info("Element 'Promo Code' not found with Explicit wait.")
-        pytest.fail("Test Failed.Bug found for Promo Code !!!")
+        pytest.fail("Test Failed.Bug found for Register User !!!")
 
     # 6. Click on the "Book Now" button.
     try:
@@ -54,13 +53,11 @@ def test_tc_tb_003(browser_config):
 
     except Exception as e:
         logging.info("Element 'Book now' button not found with Explicit wait.")
-        # Screenshot
-        capture_full_page_screenshot(driver, "TC_TB_03")
         pytest.fail("Test Failed.Bug found for Book Now Button !!!")
 
 
     # Validate Ticket Number error message
-    expected_error_message = "Please enter a number between 1 and 10."
+    expected_error_message = test_case["expected_error_message"]
 
     if expected_error_message == booking_page.get_ticket_error_message():
         logging.info("Test Passed. Error Message for Ticket Number found.")
@@ -68,6 +65,7 @@ def test_tc_tb_003(browser_config):
     else:
         logging.info("Test Failed. Expected Error Message not match with Actual Error Message.")
         # Screenshot
-        capture_full_page_screenshot(driver, "TC_TB_03")
+        capture_full_page_screenshot(driver, "TC_TB_02")
+
 
     logging.info("TC_TB_003 Completed..")

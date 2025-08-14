@@ -1,33 +1,77 @@
-2025-08-02 20:11:23,644 - INFO - Starting Browser Session...
-2025-08-02 20:11:24,340 - INFO - Browser Launch Successfully.
-2025-08-02 20:11:24,608 - INFO - URL Open Successfully.
-2025-08-02 20:11:24,698 - INFO - Ticket Number Enter successfully.
-2025-08-02 20:11:24,752 - INFO - Ticket Class Platinum - $750 selected.
-2025-08-02 20:11:24,780 - INFO - Registered User - 'Yes' selected.
-2025-08-02 20:11:24,820 - INFO - Valid Promo Code Enter successfully.
-2025-08-02 20:11:24,882 - INFO - Click on Book Now button successfully.
-2025-08-02 20:11:24,902 - INFO - Test Failed. Error Message Mismatch.
-2025-08-02 20:11:24,903 - INFO - Script Complete.
-2025-08-02 20:11:24,994 - INFO - End Browser Session...
-2025-08-07 18:32:27,431 - INFO - Starting Browser Session...
-2025-08-07 18:33:54,443 - INFO - Browser Launch Successfully.
-2025-08-07 18:33:56,084 - INFO - URL Open Successfully.
-2025-08-07 18:33:56,170 - INFO - Ticket Number Enter successfully.
-2025-08-07 18:33:56,223 - INFO - Ticket Class Platinum - $750 selected.
-2025-08-07 18:33:56,252 - INFO - Registered User - 'Yes' selected.
-2025-08-07 18:33:56,288 - INFO - Valid Promo Code Enter successfully.
-2025-08-07 18:33:56,333 - INFO - Click on Book Now button successfully.
-2025-08-07 18:33:56,359 - INFO - Test Failed. Error Message Mismatch.
-2025-08-07 18:33:56,510 - INFO - Script Complete.
-2025-08-07 18:33:56,607 - INFO - End Browser Session...
-2025-08-07 19:43:55,871 - INFO - Starting Browser Session...
-2025-08-07 19:43:56,441 - INFO - Browser Launch Successfully.
-2025-08-07 19:43:57,156 - INFO - URL Open Successfully.
-2025-08-07 19:43:57,267 - INFO - Ticket Number Enter successfully.
-2025-08-07 19:43:57,390 - INFO - Ticket Class Platinum - $750 selected.
-2025-08-07 19:43:57,433 - INFO - Registered User - 'Yes' selected.
-2025-08-07 19:43:57,468 - INFO - Valid Promo Code Enter successfully.
-2025-08-07 19:43:57,510 - INFO - Click on Book Now button successfully.
-2025-08-07 19:43:57,533 - INFO - Test Failed. Error Message Mismatch.
-2025-08-07 19:43:57,688 - INFO - Script Complete.
-2025-08-07 19:43:57,785 - INFO - End Browser Session...
+2025-08-07 18:32:29,441 - INFO - Starting Browser Session...
+2025-08-07 18:32:37,937 - INFO - Browser Launch Successfully.
+2025-08-07 18:32:42,154 - INFO - URL Open Successfully.
+2025-08-07 18:32:42,280 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:32:42,523 - INFO - Ticket Class Silver - $750 selected.
+2025-08-07 18:32:42,542 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:32:42,558 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:32:42,786 - INFO - Click on Book Now button successfully.
+2025-08-07 18:32:42,799 - INFO - Test Failed. Expected Dollar Sign is not shown in the Display.
+2025-08-07 18:32:42,852 - INFO - Script Complete.
+2025-08-07 18:32:42,852 - INFO - End Browser Session...
+2025-08-07 18:35:09,467 - INFO - Starting Browser Session...
+2025-08-07 18:35:16,566 - INFO - Browser Launch Successfully.
+2025-08-07 18:35:17,651 - INFO - URL Open Successfully.
+2025-08-07 18:35:17,836 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:35:18,188 - INFO - Ticket Class Silver - $750 selected.
+2025-08-07 18:35:18,216 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:35:18,247 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:35:18,483 - INFO - Click on Book Now button successfully.
+2025-08-07 18:35:18,518 - INFO - Test Failed. Expected Dollar Sign is not shown in the Display.
+2025-08-07 18:35:18,575 - INFO - Script Complete.
+2025-08-07 18:35:21,921 - INFO - End Browser Session...
+2025-08-07 18:36:18,053 - INFO - Starting Browser Session...
+2025-08-07 18:36:24,471 - INFO - Browser Launch Successfully.
+2025-08-07 18:36:25,660 - INFO - URL Open Successfully.
+2025-08-07 18:36:25,793 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:36:26,169 - INFO - Ticket Class Silver - $750 selected.
+2025-08-07 18:36:26,197 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:36:26,218 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:36:26,453 - INFO - Click on Book Now button successfully.
+2025-08-07 18:36:26,464 - INFO - Test Failed. Expected Dollar Sign is not shown in the Display.
+2025-08-07 18:36:26,860 - INFO - Script Complete.
+2025-08-07 18:36:30,350 - INFO - End Browser Session...
+2025-08-07 18:37:54,538 - INFO - Starting Browser Session...
+2025-08-07 18:38:01,151 - INFO - Browser Launch Successfully.
+2025-08-07 18:38:01,777 - INFO - URL Open Successfully.
+2025-08-07 18:38:01,881 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:38:02,136 - INFO - Ticket Class Silver - $750 selected.
+2025-08-07 18:38:02,155 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:38:02,176 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:38:02,398 - INFO - Click on Book Now button successfully.
+2025-08-07 18:38:02,412 - INFO - Test Failed. Expected Dollar Sign is not shown in the Display.
+2025-08-07 18:38:02,456 - INFO - Script Complete.
+2025-08-07 18:38:05,652 - INFO - End Browser Session...
+2025-08-07 18:42:35,868 - INFO - Starting Browser Session...
+2025-08-07 18:42:43,655 - INFO - Browser Launch Successfully.
+2025-08-07 18:42:45,338 - INFO - URL Open Successfully.
+2025-08-07 18:42:45,537 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:42:45,801 - INFO - Ticket Class Silver - $750 selected.
+2025-08-07 18:42:45,831 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:42:45,858 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:42:46,104 - INFO - Click on Book Now button successfully.
+2025-08-07 18:42:46,122 - INFO - Test Failed. Expected Dollar Sign is not shown in the Display.
+2025-08-07 18:42:47,160 - INFO - Script Complete.
+2025-08-07 18:42:50,674 - INFO - End Browser Session...
+2025-08-07 18:46:54,047 - INFO - Starting Browser Session...
+2025-08-07 18:47:02,000 - INFO - Browser Launch Successfully.
+2025-08-07 18:47:02,749 - INFO - URL Open Successfully.
+2025-08-07 18:47:02,934 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:47:03,200 - INFO - Ticket Class Silver - $750 selected.
+2025-08-07 18:47:03,271 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:47:03,297 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:47:03,540 - INFO - Click on Book Now button successfully.
+2025-08-07 18:47:03,551 - INFO - Test Failed. Expected Dollar Sign is not shown in the Display.
+2025-08-07 18:47:03,984 - INFO - Script Complete.
+2025-08-07 18:47:07,039 - INFO - End Browser Session...
+2025-08-07 18:47:35,717 - INFO - Starting Browser Session...
+2025-08-07 18:47:42,029 - INFO - Browser Launch Successfully.
+2025-08-07 18:47:42,635 - INFO - URL Open Successfully.
+2025-08-07 18:47:42,733 - INFO - Ticket Number Enter successfully.
+2025-08-07 18:47:42,981 - INFO - Ticket Class Silver - $750 selected.
+2025-08-07 18:47:42,997 - INFO - Registered User - 'Yes' selected.
+2025-08-07 18:47:43,010 - INFO - Valid Promo Code Enter successfully.
+2025-08-07 18:47:43,240 - INFO - Click on Book Now button successfully.
+2025-08-07 18:47:43,250 - INFO - Test Failed. Expected Dollar Sign is not shown in the Display.
+2025-08-07 18:47:43,602 - INFO - Script Complete.
+2025-08-07 18:47:46,600 - INFO - End Browser Session...

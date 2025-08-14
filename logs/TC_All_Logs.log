@@ -1,0 +1,631 @@
+2025-08-10 20:25:50,647 - INFO - Starting Browser Session...
+2025-08-10 20:25:57,016 - INFO - Browser Launch Successfully.
+2025-08-10 20:25:58,972 - INFO - URL Open Successfully.
+2025-08-10 20:25:58,973 - INFO - TC_TB_002 Started..
+2025-08-10 20:25:59,119 - INFO - Ticket Number Enter successfully.
+2025-08-10 20:25:59,195 - INFO - Ticket Class Platinum - $1500 selected.
+2025-08-10 20:25:59,213 - INFO - Registered User - 'Yes' selected.
+2025-08-10 20:25:59,228 - INFO - Valid Promo Code Enter successfully.
+2025-08-10 20:25:59,305 - INFO - Click on Book Now button successfully.
+2025-08-10 20:25:59,315 - INFO - Test Passed. Error Message for Ticket Number found.
+2025-08-10 20:25:59,315 - INFO - TC_TB_002 Completed..
+2025-08-10 20:25:59,316 - INFO - Script Complete.
+2025-08-10 20:26:02,405 - INFO - End Browser Session...
+2025-08-10 20:26:02,405 - INFO - ...................
+2025-08-10 20:26:02,405 - INFO - ...................
+2025-08-10 20:32:51,470 - INFO - Starting Browser Session...
+2025-08-10 20:32:59,838 - INFO - Browser Launch Successfully.
+2025-08-10 20:33:02,008 - INFO - URL Open Successfully.
+2025-08-10 20:33:02,018 - INFO - TC_TB_001 Started..
+2025-08-10 20:33:02,150 - INFO - Ticket Number Enter successfully.
+2025-08-10 20:33:02,248 - INFO - Ticket Class Silver - $750 selected.
+2025-08-10 20:33:02,265 - INFO - Registered User - 'Yes' selected.
+2025-08-10 20:33:02,285 - INFO - Valid Promo Code Enter successfully.
+2025-08-10 20:33:02,354 - INFO - Click on Book Now button successfully.
+2025-08-10 20:33:02,369 - INFO - Test Failed. Expected Final Price does not match with Actual Final Price.
+2025-08-10 20:33:02,758 - INFO - TC_TB_001 Completed..
+2025-08-10 20:33:02,761 - INFO - Script Complete.
+2025-08-10 20:33:06,080 - INFO - End Browser Session...
+2025-08-10 20:33:06,080 - INFO - ...................
+2025-08-10 20:33:06,080 - INFO - ...................
+2025-08-10 20:33:06,087 - INFO - Starting Browser Session...
+2025-08-10 20:33:12,682 - INFO - Browser Launch Successfully.
+2025-08-10 20:33:14,272 - INFO - URL Open Successfully.
+2025-08-10 20:33:14,274 - INFO - TC_TB_002 Started..
+2025-08-10 20:33:14,395 - INFO - Ticket Number Enter successfully.
+2025-08-10 20:33:14,510 - INFO - Ticket Class Platinum - $1500 selected.
+2025-08-10 20:33:14,523 - INFO - Registered User - 'Yes' selected.
+2025-08-10 20:33:14,539 - INFO - Valid Promo Code Enter successfully.
+2025-08-10 20:33:14,603 - INFO - Click on Book Now button successfully.
+2025-08-10 20:33:14,613 - INFO - Test Passed. Error Message for Ticket Number found.
+2025-08-10 20:33:14,613 - INFO - TC_TB_002 Completed..
+2025-08-10 20:33:14,616 - INFO - Script Complete.
+2025-08-10 20:33:17,670 - INFO - End Browser Session...
+2025-08-10 20:33:17,670 - INFO - ...................
+2025-08-10 20:33:17,670 - INFO - ...................
+2025-08-10 20:33:17,682 - INFO - Starting Browser Session...
+2025-08-10 20:33:24,130 - INFO - Browser Launch Successfully.
+2025-08-10 20:33:29,529 - INFO - URL Open Successfully.
+2025-08-10 20:33:29,531 - INFO - TC_TB_003 Started..
+2025-08-10 20:33:29,651 - INFO - Ticket Number Enter successfully.
+2025-08-10 20:33:29,734 - INFO - Ticket Class Platinum - $1500 selected.
+2025-08-10 20:33:29,749 - INFO - Registered User - 'Yes' selected.
+2025-08-10 20:33:29,768 - INFO - Valid Promo Code Enter successfully.
+2025-08-10 20:33:29,842 - INFO - Click on Book Now button successfully.
+2025-08-10 20:33:29,852 - INFO - Test Passed. Error Message for Ticket Number found.
+2025-08-10 20:33:29,852 - INFO - TC_TB_003 Completed..
+2025-08-10 20:33:29,855 - INFO - Script Complete.
+2025-08-10 20:33:32,834 - INFO - End Browser Session...
+2025-08-10 20:33:32,834 - INFO - ...................
+2025-08-10 20:33:32,834 - INFO - ...................
+2025-08-14 14:32:42,285 - INFO - Starting Browser Session...
+2025-08-14 14:32:48,533 - INFO - Browser Launch Successfully.
+2025-08-14 14:32:49,319 - INFO - URL Open Successfully.
+2025-08-14 14:32:49,320 - INFO - TC_TB_001 Started..
+2025-08-14 14:32:49,386 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:32:49,449 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:32:49,482 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:32:49,533 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:32:49,602 - INFO - Click on Book Now button successfully.
+2025-08-14 14:32:49,626 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:32:49,626 - INFO - TC_TB_001 Completed..
+2025-08-14 14:32:49,626 - INFO - TC_TB_001 Completed..
+2025-08-14 14:32:49,627 - INFO - Script Complete.
+2025-08-14 14:32:51,736 - INFO - End Browser Session...
+2025-08-14 14:32:51,737 - INFO - ...................
+2025-08-14 14:32:51,737 - INFO - ...................
+2025-08-14 14:32:51,740 - INFO - Starting Browser Session...
+2025-08-14 14:32:53,157 - INFO - Browser Launch Successfully.
+2025-08-14 14:32:54,096 - INFO - URL Open Successfully.
+2025-08-14 14:32:54,097 - INFO - TC_TB_001 Started..
+2025-08-14 14:32:54,163 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:32:54,231 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:32:54,262 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:32:54,305 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:32:54,367 - INFO - Click on Book Now button successfully.
+2025-08-14 14:32:54,391 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:32:54,391 - INFO - TC_TB_001 Completed..
+2025-08-14 14:32:54,391 - INFO - TC_TB_001 Completed..
+2025-08-14 14:32:54,392 - INFO - Script Complete.
+2025-08-14 14:32:56,547 - INFO - End Browser Session...
+2025-08-14 14:32:56,548 - INFO - ...................
+2025-08-14 14:32:56,548 - INFO - ...................
+2025-08-14 14:33:03,068 - INFO - Starting Browser Session...
+2025-08-14 14:33:04,585 - INFO - Browser Launch Successfully.
+2025-08-14 14:33:06,560 - INFO - URL Open Successfully.
+2025-08-14 14:33:06,561 - INFO - TC_TB_001 Started..
+2025-08-14 14:33:06,624 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:33:06,683 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:33:06,717 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:33:06,765 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:33:06,835 - INFO - Click on Book Now button successfully.
+2025-08-14 14:33:06,858 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:33:06,858 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:06,858 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:06,859 - INFO - Script Complete.
+2025-08-14 14:33:08,951 - INFO - End Browser Session...
+2025-08-14 14:33:08,952 - INFO - ...................
+2025-08-14 14:33:08,952 - INFO - ...................
+2025-08-14 14:33:08,955 - INFO - Starting Browser Session...
+2025-08-14 14:33:10,818 - INFO - Browser Launch Successfully.
+2025-08-14 14:33:15,762 - INFO - URL Open Successfully.
+2025-08-14 14:33:15,763 - INFO - TC_TB_001 Started..
+2025-08-14 14:33:15,825 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:33:15,883 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:33:15,916 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:33:15,967 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:33:16,034 - INFO - Click on Book Now button successfully.
+2025-08-14 14:33:16,057 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:33:16,057 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:16,057 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:16,058 - INFO - Script Complete.
+2025-08-14 14:33:18,173 - INFO - End Browser Session...
+2025-08-14 14:33:18,174 - INFO - ...................
+2025-08-14 14:33:18,174 - INFO - ...................
+2025-08-14 14:33:50,844 - INFO - Starting Browser Session...
+2025-08-14 14:33:52,438 - INFO - Browser Launch Successfully.
+2025-08-14 14:33:53,067 - INFO - URL Open Successfully.
+2025-08-14 14:33:53,067 - INFO - TC_TB_001 Started..
+2025-08-14 14:33:53,134 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:33:53,195 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:33:53,225 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:33:53,278 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:33:53,341 - INFO - Click on Book Now button successfully.
+2025-08-14 14:33:53,365 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:33:53,365 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:53,365 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:53,366 - INFO - Script Complete.
+2025-08-14 14:33:55,505 - INFO - End Browser Session...
+2025-08-14 14:33:55,505 - INFO - ...................
+2025-08-14 14:33:55,505 - INFO - ...................
+2025-08-14 14:33:55,510 - INFO - Starting Browser Session...
+2025-08-14 14:33:56,886 - INFO - Browser Launch Successfully.
+2025-08-14 14:33:57,551 - INFO - URL Open Successfully.
+2025-08-14 14:33:57,552 - INFO - TC_TB_001 Started..
+2025-08-14 14:33:57,618 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:33:57,680 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:33:57,711 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:33:57,766 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:33:57,831 - INFO - Click on Book Now button successfully.
+2025-08-14 14:33:57,853 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:33:57,853 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:57,854 - INFO - TC_TB_001 Completed..
+2025-08-14 14:33:57,854 - INFO - Script Complete.
+2025-08-14 14:33:59,975 - INFO - End Browser Session...
+2025-08-14 14:33:59,976 - INFO - ...................
+2025-08-14 14:33:59,976 - INFO - ...................
+2025-08-14 14:36:21,569 - INFO - Starting browser session with firefox...
+2025-08-14 14:36:27,696 - INFO - firefox browser launched successfully.
+2025-08-14 14:36:28,307 - INFO - URL opened successfully.
+2025-08-14 14:36:28,308 - INFO - TC_TB_001 Started..
+2025-08-14 14:36:28,419 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:36:28,506 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:36:28,557 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:36:28,571 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:36:28,649 - INFO - Click on Book Now button successfully.
+2025-08-14 14:36:28,664 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:36:28,664 - INFO - TC_TB_001 Completed..
+2025-08-14 14:36:28,664 - INFO - TC_TB_001 Completed..
+2025-08-14 14:36:28,665 - INFO - Script complete.
+2025-08-14 14:36:31,632 - INFO - Ending browser session...
+2025-08-14 14:36:31,632 - INFO - ...................
+2025-08-14 14:36:31,633 - INFO - ...................
+2025-08-14 14:36:31,636 - INFO - Starting browser session with firefox...
+2025-08-14 14:36:37,191 - INFO - firefox browser launched successfully.
+2025-08-14 14:36:37,737 - INFO - URL opened successfully.
+2025-08-14 14:36:37,737 - INFO - TC_TB_001 Started..
+2025-08-14 14:36:37,838 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:36:37,913 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:36:37,923 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:36:37,964 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:36:38,024 - INFO - Click on Book Now button successfully.
+2025-08-14 14:36:38,038 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:36:38,038 - INFO - TC_TB_001 Completed..
+2025-08-14 14:36:38,038 - INFO - TC_TB_001 Completed..
+2025-08-14 14:36:38,038 - INFO - Script complete.
+2025-08-14 14:36:40,980 - INFO - Ending browser session...
+2025-08-14 14:36:40,980 - INFO - ...................
+2025-08-14 14:36:40,981 - INFO - ...................
+2025-08-14 14:37:42,163 - INFO - Starting browser session with firefox...
+2025-08-14 14:37:47,786 - INFO - firefox browser launched successfully.
+2025-08-14 14:37:48,318 - INFO - URL opened successfully.
+2025-08-14 14:37:48,319 - INFO - TC_TB_001 Started..
+2025-08-14 14:37:48,470 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:37:48,560 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:37:48,574 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:37:48,593 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:37:48,671 - INFO - Click on Book Now button successfully.
+2025-08-14 14:37:48,682 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:37:48,682 - INFO - TC_TB_001 Completed..
+2025-08-14 14:37:48,682 - INFO - TC_TB_001 Completed..
+2025-08-14 14:37:48,683 - INFO - Script complete.
+2025-08-14 14:37:51,795 - INFO - Ending browser session...
+2025-08-14 14:37:51,796 - INFO - ...................
+2025-08-14 14:37:51,796 - INFO - ...................
+2025-08-14 14:37:51,800 - INFO - Starting browser session with firefox...
+2025-08-14 14:37:57,316 - INFO - firefox browser launched successfully.
+2025-08-14 14:37:57,877 - INFO - URL opened successfully.
+2025-08-14 14:37:57,877 - INFO - TC_TB_001 Started..
+2025-08-14 14:37:58,003 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:37:58,080 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:37:58,095 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:37:58,111 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:37:58,190 - INFO - Click on Book Now button successfully.
+2025-08-14 14:37:58,204 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:37:58,204 - INFO - TC_TB_001 Completed..
+2025-08-14 14:37:58,204 - INFO - TC_TB_001 Completed..
+2025-08-14 14:37:58,205 - INFO - Script complete.
+2025-08-14 14:38:01,209 - INFO - Ending browser session...
+2025-08-14 14:38:01,210 - INFO - ...................
+2025-08-14 14:38:01,210 - INFO - ...................
+2025-08-14 14:39:06,761 - INFO - Starting browser session with firefox...
+2025-08-14 14:39:12,399 - INFO - firefox browser launched successfully.
+2025-08-14 14:39:12,924 - INFO - URL opened successfully.
+2025-08-14 14:39:12,926 - INFO - TC_TB_001 Started..
+2025-08-14 14:39:13,042 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:39:13,129 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:39:13,143 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:39:13,158 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:39:13,236 - INFO - Click on Book Now button successfully.
+2025-08-14 14:39:13,247 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:39:13,247 - INFO - TC_TB_001 Completed..
+2025-08-14 14:39:13,247 - INFO - TC_TB_001 Completed..
+2025-08-14 14:39:13,248 - INFO - Script complete.
+2025-08-14 14:39:16,178 - INFO - Ending browser session...
+2025-08-14 14:39:16,178 - INFO - ...................
+2025-08-14 14:39:16,178 - INFO - ...................
+2025-08-14 14:39:16,182 - INFO - Starting browser session with firefox...
+2025-08-14 14:39:21,784 - INFO - firefox browser launched successfully.
+2025-08-14 14:39:22,323 - INFO - URL opened successfully.
+2025-08-14 14:39:22,324 - INFO - TC_TB_001 Started..
+2025-08-14 14:39:22,448 - INFO - Ticket Number Enter successfully.
+2025-08-14 14:39:22,533 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 14:39:22,545 - INFO - Registered User - 'Yes' selected.
+2025-08-14 14:39:22,562 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 14:39:22,662 - INFO - Click on Book Now button successfully.
+2025-08-14 14:39:22,673 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 14:39:22,673 - INFO - TC_TB_001 Completed..
+2025-08-14 14:39:22,673 - INFO - TC_TB_001 Completed..
+2025-08-14 14:39:22,674 - INFO - Script complete.
+2025-08-14 14:39:25,578 - INFO - Ending browser session...
+2025-08-14 14:39:25,578 - INFO - ...................
+2025-08-14 14:39:25,579 - INFO - ...................
+2025-08-14 15:02:55,408 - INFO - Starting browser session with firefox...
+2025-08-14 15:03:03,925 - INFO - firefox browser launched successfully.
+2025-08-14 15:03:04,571 - INFO - URL opened successfully.
+2025-08-14 15:03:04,572 - INFO - TC_TB_001 Started..
+2025-08-14 15:03:04,701 - INFO - Ticket Number Enter successfully.
+2025-08-14 15:03:04,773 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 15:03:04,787 - INFO - Registered User - 'Yes' selected.
+2025-08-14 15:03:04,800 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 15:03:04,868 - INFO - Click on Book Now button successfully.
+2025-08-14 15:03:04,887 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 15:03:04,887 - INFO - TC_TB_001 Completed..
+2025-08-14 15:03:04,887 - INFO - TC_TB_001 Completed..
+2025-08-14 15:03:04,888 - INFO - Script complete.
+2025-08-14 15:03:07,826 - INFO - Ending browser session...
+2025-08-14 15:03:07,826 - INFO - ...................
+2025-08-14 15:03:07,827 - INFO - ...................
+2025-08-14 15:04:58,346 - INFO - Starting browser session with firefox...
+2025-08-14 15:05:03,883 - INFO - firefox browser launched successfully.
+2025-08-14 15:05:04,409 - INFO - URL opened successfully.
+2025-08-14 15:05:04,409 - INFO - TC_TB_003 Started..
+2025-08-14 15:05:04,549 - INFO - Ticket Number Enter successfully.
+2025-08-14 15:05:04,628 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 15:05:04,642 - INFO - Registered User - 'Yes' selected.
+2025-08-14 15:05:04,657 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 15:05:04,724 - INFO - Click on Book Now button successfully.
+2025-08-14 15:05:04,845 - INFO - Script complete.
+2025-08-14 15:05:07,782 - INFO - Ending browser session...
+2025-08-14 15:05:07,783 - INFO - ...................
+2025-08-14 15:05:07,783 - INFO - ...................
+2025-08-14 15:07:36,830 - INFO - Starting browser session with firefox...
+2025-08-14 15:07:42,379 - INFO - firefox browser launched successfully.
+2025-08-14 15:07:42,925 - INFO - URL opened successfully.
+2025-08-14 15:07:42,926 - INFO - TC_TB_003 Started..
+2025-08-14 15:07:43,032 - INFO - Ticket Number Enter successfully.
+2025-08-14 15:07:43,131 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 15:07:43,144 - INFO - Registered User - 'Yes' selected.
+2025-08-14 15:07:43,156 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 15:07:43,225 - INFO - Click on Book Now button successfully.
+2025-08-14 15:07:43,235 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 15:07:43,235 - INFO - TC_TB_003 Completed..
+2025-08-14 15:07:43,236 - INFO - Script complete.
+2025-08-14 15:07:46,149 - INFO - Ending browser session...
+2025-08-14 15:07:46,150 - INFO - ...................
+2025-08-14 15:07:46,150 - INFO - ...................
+2025-08-14 16:15:27,721 - INFO - Starting browser session with firefox...
+2025-08-14 16:15:33,494 - INFO - firefox browser launched successfully.
+2025-08-14 16:15:34,357 - INFO - URL opened successfully.
+2025-08-14 16:15:34,358 - INFO - TC_TB_003 Started..
+2025-08-14 16:15:34,465 - INFO - Ticket Number Enter successfully.
+2025-08-14 16:15:34,575 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 16:15:34,585 - INFO - Registered User - 'Yes' selected.
+2025-08-14 16:15:34,595 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 16:15:34,657 - INFO - Click on Book Now button successfully.
+2025-08-14 16:15:34,667 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 16:15:35,046 - ERROR - 
+================ BUG REPORT ================
+Test Case: N/A
+Description: An invalid booking scenario failed as the expected error message did not match the actual message.
+--------------------------------------------
+Test Data:
+  Tickets: 11
+  Class Value: 1500
+  User Value: yes
+  Promo Code: PROMO2025
+--------------------------------------------
+Validation Failure:
+  Expected Error Message: Please enter a number between 1 and 100.
+  Actual Error Message:   Please enter a number between 1 and 10.
+--------------------------------------------
+Screenshot: None
+============================================
+
+2025-08-14 16:15:35,046 - INFO - TC_TB_003 Completed..
+2025-08-14 16:15:35,047 - INFO - Script complete.
+2025-08-14 16:15:37,982 - INFO - Ending browser session...
+2025-08-14 16:15:37,983 - INFO - ...................
+2025-08-14 16:15:37,983 - INFO - ...................
+2025-08-14 16:20:51,753 - INFO - Starting browser session with firefox...
+2025-08-14 16:20:57,287 - INFO - firefox browser launched successfully.
+2025-08-14 16:20:57,872 - INFO - URL opened successfully.
+2025-08-14 16:20:57,873 - INFO - TC_TB_003 Started..
+2025-08-14 16:20:57,974 - INFO - Ticket Number Enter successfully.
+2025-08-14 16:20:58,056 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 16:20:58,067 - INFO - Registered User - 'Yes' selected.
+2025-08-14 16:20:58,082 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 16:20:58,198 - INFO - Click on Book Now button successfully.
+2025-08-14 16:20:58,210 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 16:20:58,763 - INFO - Script complete.
+2025-08-14 16:21:01,697 - INFO - Ending browser session...
+2025-08-14 16:21:01,697 - INFO - ...................
+2025-08-14 16:21:01,697 - INFO - ...................
+2025-08-14 16:23:03,182 - INFO - Starting browser session with firefox...
+2025-08-14 16:23:08,708 - INFO - firefox browser launched successfully.
+2025-08-14 16:23:09,282 - INFO - URL opened successfully.
+2025-08-14 16:23:09,283 - INFO - TC_TB_003 Started..
+2025-08-14 16:23:09,397 - INFO - Ticket Number Enter successfully.
+2025-08-14 16:23:09,479 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 16:23:09,491 - INFO - Registered User - 'Yes' selected.
+2025-08-14 16:23:09,504 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 16:23:09,575 - INFO - Click on Book Now button successfully.
+2025-08-14 16:23:09,586 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 16:23:09,947 - INFO - Bug report saved to: logs\bug_reports\bug_report_TC_TB_003_20250814_162309.txt
+2025-08-14 16:23:10,060 - INFO - Script complete.
+2025-08-14 16:23:13,066 - INFO - Ending browser session...
+2025-08-14 16:23:13,066 - INFO - ...................
+2025-08-14 16:23:13,066 - INFO - ...................
+2025-08-14 16:26:42,507 - INFO - Starting browser session with firefox...
+2025-08-14 16:26:48,032 - INFO - firefox browser launched successfully.
+2025-08-14 16:26:48,722 - INFO - URL opened successfully.
+2025-08-14 16:26:48,722 - INFO - TC_TB_003 Started..
+2025-08-14 16:26:48,829 - INFO - Ticket Number Enter successfully.
+2025-08-14 16:26:48,925 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 16:26:48,962 - INFO - Registered User - 'Yes' selected.
+2025-08-14 16:26:48,985 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 16:26:49,055 - INFO - Click on Book Now button successfully.
+2025-08-14 16:26:49,065 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 16:26:49,581 - INFO - Script complete.
+2025-08-14 16:26:52,502 - INFO - Ending browser session...
+2025-08-14 16:26:52,503 - INFO - ...................
+2025-08-14 16:26:52,503 - INFO - ...................
+2025-08-14 16:30:04,426 - INFO - Starting browser session with firefox...
+2025-08-14 16:30:14,283 - INFO - firefox browser launched successfully.
+2025-08-14 16:30:14,816 - INFO - URL opened successfully.
+2025-08-14 16:30:14,817 - INFO - TC_TB_003 Started..
+2025-08-14 16:30:14,950 - INFO - Ticket Number Enter successfully.
+2025-08-14 16:30:15,039 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 16:30:15,050 - INFO - Registered User - 'Yes' selected.
+2025-08-14 16:30:15,140 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 16:30:15,226 - INFO - Click on Book Now button successfully.
+2025-08-14 16:30:15,234 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 16:30:15,541 - INFO - Bug report saved to: logs\bug_reports\bug_report_TC_TB_003_20250814_163015.txt
+2025-08-14 16:30:15,657 - INFO - Script complete.
+2025-08-14 16:30:18,651 - INFO - Ending browser session...
+2025-08-14 16:30:18,652 - INFO - ...................
+2025-08-14 16:30:18,652 - INFO - ...................
+2025-08-14 18:12:07,426 - INFO - Starting browser session with firefox...
+2025-08-14 18:12:16,409 - INFO - firefox browser launched successfully.
+2025-08-14 18:12:21,096 - INFO - URL opened successfully.
+2025-08-14 18:12:21,098 - INFO - TC_TB_001 Started..
+2025-08-14 18:12:21,277 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:12:21,378 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:12:21,392 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:12:21,409 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:12:21,488 - INFO - Click on Book Now button successfully.
+2025-08-14 18:12:21,498 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:12:21,499 - INFO - TC_TB_001 Completed..
+2025-08-14 18:12:21,500 - INFO - Script complete.
+2025-08-14 18:12:24,745 - INFO - Ending browser session...
+2025-08-14 18:12:24,745 - INFO - ...................
+2025-08-14 18:12:24,746 - INFO - ...................
+2025-08-14 18:12:34,428 - INFO - Starting browser session with chrome...
+2025-08-14 18:13:29,442 - INFO - Starting browser session with chrome...
+2025-08-14 18:13:31,289 - INFO - chrome browser launched successfully.
+2025-08-14 18:13:32,593 - INFO - URL opened successfully.
+2025-08-14 18:13:32,595 - INFO - TC_TB_001 Started..
+2025-08-14 18:13:32,680 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:13:32,766 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:13:32,801 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:13:32,871 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:13:32,942 - INFO - Click on Book Now button successfully.
+2025-08-14 18:13:32,967 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:13:32,967 - INFO - TC_TB_001 Completed..
+2025-08-14 18:13:32,969 - INFO - Script complete.
+2025-08-14 18:13:35,171 - INFO - Ending browser session...
+2025-08-14 18:13:35,171 - INFO - ...................
+2025-08-14 18:13:35,171 - INFO - ...................
+2025-08-14 18:14:04,717 - INFO - Starting browser session with firefox...
+2025-08-14 18:14:11,913 - INFO - firefox browser launched successfully.
+2025-08-14 18:14:15,775 - INFO - URL opened successfully.
+2025-08-14 18:14:15,776 - INFO - TC_TB_001 Started..
+2025-08-14 18:14:15,926 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:14:16,044 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:14:16,063 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:14:16,083 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:14:16,154 - INFO - Click on Book Now button successfully.
+2025-08-14 18:14:16,165 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:14:16,166 - INFO - TC_TB_001 Completed..
+2025-08-14 18:14:16,166 - INFO - Script complete.
+2025-08-14 18:14:19,157 - INFO - Ending browser session...
+2025-08-14 18:14:19,157 - INFO - ...................
+2025-08-14 18:14:19,157 - INFO - ...................
+2025-08-14 18:20:57,777 - INFO - Starting browser session with firefox...
+2025-08-14 18:21:05,699 - INFO - firefox browser launched successfully.
+2025-08-14 18:21:07,133 - INFO - URL opened successfully.
+2025-08-14 18:21:07,139 - INFO - TC_TB_001 Started..
+2025-08-14 18:21:07,278 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:21:07,389 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:21:07,404 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:21:07,418 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:21:07,493 - INFO - Click on Book Now button successfully.
+2025-08-14 18:21:07,505 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:21:07,505 - INFO - TC_TB_001 Completed..
+2025-08-14 18:21:07,507 - INFO - Script complete.
+2025-08-14 18:21:10,814 - INFO - Ending browser session...
+2025-08-14 18:21:10,814 - INFO - ...................
+2025-08-14 18:21:10,814 - INFO - ...................
+2025-08-14 18:25:44,162 - INFO - Starting browser session with firefox...
+2025-08-14 18:25:51,916 - INFO - firefox browser launched successfully.
+2025-08-14 18:25:53,984 - INFO - URL opened successfully.
+2025-08-14 18:25:53,989 - INFO - TC_TB_003 Started..
+2025-08-14 18:25:54,132 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:25:54,268 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:25:54,283 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:25:54,299 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:25:54,361 - INFO - Click on Book Now button successfully.
+2025-08-14 18:25:54,374 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 18:25:54,735 - INFO - Bug report saved to: logs\bug_reports\bug_report_TC_TB_003_20250814_182554.txt
+2025-08-14 18:25:54,901 - INFO - Script complete.
+2025-08-14 18:25:58,103 - INFO - Ending browser session...
+2025-08-14 18:25:58,103 - INFO - ...................
+2025-08-14 18:25:58,103 - INFO - ...................
+2025-08-14 18:29:16,160 - INFO - Starting browser session with firefox...
+2025-08-14 18:29:23,162 - INFO - firefox browser launched successfully.
+2025-08-14 18:29:26,804 - INFO - URL opened successfully.
+2025-08-14 18:29:26,809 - INFO - TC_TB_003 Started..
+2025-08-14 18:29:26,922 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:29:27,029 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:29:27,087 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:29:27,116 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:29:27,198 - INFO - Click on Book Now button successfully.
+2025-08-14 18:29:27,209 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 18:29:27,600 - INFO - Bug report saved to: bug_reports\bug_report_TC_TB_003_20250814_182927.txt
+2025-08-14 18:29:27,754 - INFO - Script complete.
+2025-08-14 18:29:30,871 - INFO - Ending browser session...
+2025-08-14 18:29:30,872 - INFO - ...................
+2025-08-14 18:29:30,872 - INFO - ...................
+2025-08-14 18:33:35,334 - INFO - Starting browser session with firefox...
+2025-08-14 18:33:41,969 - INFO - firefox browser launched successfully.
+2025-08-14 18:33:42,598 - INFO - URL opened successfully.
+2025-08-14 18:33:42,602 - INFO - TC_TB_003 Started..
+2025-08-14 18:33:42,777 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:33:42,885 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:33:42,901 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:33:42,924 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:33:43,008 - INFO - Click on Book Now button successfully.
+2025-08-14 18:33:43,019 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 18:33:43,411 - INFO - Bug report saved to: bug_reports\bug_report_TC_TB_003_20250814_183343.txt
+2025-08-14 18:33:43,567 - INFO - Script complete.
+2025-08-14 18:33:46,672 - INFO - Ending browser session...
+2025-08-14 18:33:46,673 - INFO - ...................
+2025-08-14 18:33:46,673 - INFO - ...................
+2025-08-14 18:43:31,221 - INFO - Starting browser session with firefox...
+2025-08-14 18:43:31,877 - INFO - Starting browser session with firefox...
+2025-08-14 18:43:32,455 - INFO - Starting browser session with firefox...
+2025-08-14 18:45:26,587 - INFO - Starting browser session with chrome...
+2025-08-14 18:45:27,253 - INFO - chrome browser launched successfully.
+2025-08-14 18:45:28,009 - INFO - URL opened successfully.
+2025-08-14 18:45:28,015 - INFO - TC_TB_001 Started..
+2025-08-14 18:45:28,088 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:45:28,141 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:45:28,184 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:45:28,221 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:45:28,264 - INFO - Click on Book Now button successfully.
+2025-08-14 18:45:28,286 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:45:28,286 - INFO - TC_TB_001 Completed..
+2025-08-14 18:45:28,287 - INFO - Script complete.
+2025-08-14 18:45:28,395 - INFO - Ending browser session...
+2025-08-14 18:45:28,396 - INFO - ...................
+2025-08-14 18:45:28,396 - INFO - ...................
+2025-08-14 18:45:28,399 - INFO - Starting browser session with chrome...
+2025-08-14 18:45:29,062 - INFO - chrome browser launched successfully.
+2025-08-14 18:45:29,762 - INFO - URL opened successfully.
+2025-08-14 18:45:29,764 - INFO - TC_TB_002 Started..
+2025-08-14 18:45:29,845 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:45:29,899 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:45:29,937 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:45:29,973 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:45:30,018 - INFO - Click on Book Now button successfully.
+2025-08-14 18:45:30,040 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:45:30,040 - INFO - TC_TB_002 Completed..
+2025-08-14 18:45:30,041 - INFO - Script complete.
+2025-08-14 18:45:30,098 - INFO - Ending browser session...
+2025-08-14 18:45:30,099 - INFO - ...................
+2025-08-14 18:45:30,099 - INFO - ...................
+2025-08-14 18:45:30,101 - INFO - Starting browser session with chrome...
+2025-08-14 18:45:30,720 - INFO - chrome browser launched successfully.
+2025-08-14 18:45:31,373 - INFO - URL opened successfully.
+2025-08-14 18:45:31,375 - INFO - TC_TB_003 Started..
+2025-08-14 18:45:31,469 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:45:31,525 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:45:31,553 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:45:31,588 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:45:31,635 - INFO - Click on Book Now button successfully.
+2025-08-14 18:45:31,654 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 18:45:31,881 - INFO - Bug report saved to: bug_reports/bug_report_TC_TB_003_20250814_184531.txt
+2025-08-14 18:45:31,908 - INFO - Script complete.
+2025-08-14 18:45:31,974 - INFO - Ending browser session...
+2025-08-14 18:45:31,974 - INFO - ...................
+2025-08-14 18:45:31,974 - INFO - ...................
+2025-08-14 18:50:10,867 - INFO - Starting browser session with chrome...
+2025-08-14 18:50:11,520 - INFO - chrome browser launched successfully.
+2025-08-14 18:50:12,212 - INFO - URL opened successfully.
+2025-08-14 18:50:12,214 - INFO - TC_TB_001 Started..
+2025-08-14 18:50:12,292 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:50:12,350 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:50:12,382 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:50:12,418 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:50:12,463 - INFO - Click on Book Now button successfully.
+2025-08-14 18:50:12,494 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:50:12,494 - INFO - TC_TB_001 Completed..
+2025-08-14 18:50:12,495 - INFO - Script complete.
+2025-08-14 18:50:12,609 - INFO - Ending browser session...
+2025-08-14 18:50:12,609 - INFO - ...................
+2025-08-14 18:50:12,609 - INFO - ...................
+2025-08-14 18:50:12,612 - INFO - Starting browser session with chrome...
+2025-08-14 18:50:13,295 - INFO - chrome browser launched successfully.
+2025-08-14 18:50:13,928 - INFO - URL opened successfully.
+2025-08-14 18:50:13,928 - INFO - TC_TB_002 Started..
+2025-08-14 18:50:13,979 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:50:14,035 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:50:14,069 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:50:14,108 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:50:14,154 - INFO - Click on Book Now button successfully.
+2025-08-14 18:50:14,175 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:50:14,175 - INFO - TC_TB_002 Completed..
+2025-08-14 18:50:14,177 - INFO - Script complete.
+2025-08-14 18:50:14,238 - INFO - Ending browser session...
+2025-08-14 18:50:14,238 - INFO - ...................
+2025-08-14 18:50:14,238 - INFO - ...................
+2025-08-14 18:50:14,241 - INFO - Starting browser session with chrome...
+2025-08-14 18:50:14,935 - INFO - chrome browser launched successfully.
+2025-08-14 18:50:15,566 - INFO - URL opened successfully.
+2025-08-14 18:50:15,568 - INFO - TC_TB_003 Started..
+2025-08-14 18:50:15,647 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:50:15,701 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:50:15,728 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:50:15,764 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:50:15,810 - INFO - Click on Book Now button successfully.
+2025-08-14 18:50:15,831 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 18:50:16,071 - INFO - Bug report saved to: bug_reports/bug_report_TC_TB_003_20250814_185016.txt
+2025-08-14 18:50:16,099 - INFO - Script complete.
+2025-08-14 18:50:16,158 - INFO - Ending browser session...
+2025-08-14 18:50:16,158 - INFO - ...................
+2025-08-14 18:50:16,159 - INFO - ...................
+2025-08-14 18:51:47,073 - INFO - Starting browser session with chrome...
+2025-08-14 18:51:47,630 - INFO - chrome browser launched successfully.
+2025-08-14 18:51:48,274 - INFO - URL opened successfully.
+2025-08-14 18:51:48,278 - INFO - TC_TB_001 Started..
+2025-08-14 18:51:48,347 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:51:48,412 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:51:48,440 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:51:48,476 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:51:48,523 - INFO - Click on Book Now button successfully.
+2025-08-14 18:51:48,554 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:51:48,554 - INFO - TC_TB_001 Completed..
+2025-08-14 18:51:48,556 - INFO - Script complete.
+2025-08-14 18:51:48,676 - INFO - Ending browser session...
+2025-08-14 18:51:48,676 - INFO - ...................
+2025-08-14 18:51:48,676 - INFO - ...................
+2025-08-14 18:51:48,678 - INFO - Starting browser session with chrome...
+2025-08-14 18:51:49,319 - INFO - chrome browser launched successfully.
+2025-08-14 18:51:49,993 - INFO - URL opened successfully.
+2025-08-14 18:51:49,994 - INFO - TC_TB_002 Started..
+2025-08-14 18:51:50,054 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:51:50,111 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:51:50,157 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:51:50,193 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:51:50,237 - INFO - Click on Book Now button successfully.
+2025-08-14 18:51:50,261 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 18:51:50,261 - INFO - TC_TB_002 Completed..
+2025-08-14 18:51:50,263 - INFO - Script complete.
+2025-08-14 18:51:50,329 - INFO - Ending browser session...
+2025-08-14 18:51:50,329 - INFO - ...................
+2025-08-14 18:51:50,329 - INFO - ...................
+2025-08-14 18:51:50,333 - INFO - Starting browser session with chrome...
+2025-08-14 18:51:51,025 - INFO - chrome browser launched successfully.
+2025-08-14 18:51:51,743 - INFO - URL opened successfully.
+2025-08-14 18:51:51,745 - INFO - TC_TB_003 Started..
+2025-08-14 18:51:51,853 - INFO - Ticket Number Enter successfully.
+2025-08-14 18:51:51,929 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 18:51:51,990 - INFO - Registered User - 'Yes' selected.
+2025-08-14 18:51:52,057 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 18:51:52,101 - INFO - Click on Book Now button successfully.
+2025-08-14 18:51:52,120 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 18:51:52,366 - INFO - Bug report saved to: bug_reports/bug_report_TC_TB_003_20250814_185152.txt
+2025-08-14 18:51:52,388 - INFO - Script complete.
+2025-08-14 18:51:52,447 - INFO - Ending browser session...
+2025-08-14 18:51:52,447 - INFO - ...................
+2025-08-14 18:51:52,447 - INFO - ...................

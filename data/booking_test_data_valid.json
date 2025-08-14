@@ -4,6 +4,13 @@
     "class_value": "750",
     "user_value": "yes",
     "promo_code":"PROMO2025",
-    "expected_price":  "Please enter a number between 1 and 10."
+    "expected_price":  "Final Amount: 1050.00"
+  },
+  {
+    "tickets": 10,
+    "class_value": "750",
+    "user_value": "yes",
+    "promo_code":"PROMO2025",
+    "expected_price":  "Final Amount: 5250.00"
   }
 ]

@@ -1,17 +1,23 @@
-
 import logging
 import pytest
 from utils.screenshot_utils import capture_full_page_screenshot
 from pages.booking_page import BookingPage
 from utils.data_loader import load_booking_test_data
 
-@pytest.mark.parametrize("test_case",load_booking_test_data("../data/booking_test_data_valid.json"))
-def test_tc_tb_001(browser_config, test_case):
+# Use the 'valid_bookings' key to load the data
+valid_data = load_booking_test_data("valid_bookings")
+
+# Select only the first element (index 0) and wrap it in a list
+first_valid_case = [valid_data[0]]
+
+
+@pytest.mark.parametrize("test_case", first_valid_case)
+def test_tc_tb(browser_config, test_case):
     logging.info("TC_TB_001 Started..")
     driver, wait = browser_config
 
     # create object for BookingPage class
-    booking_page = BookingPage(driver,wait)
+    booking_page = BookingPage(driver, wait)
 
     # 2. Enter a valid Number of Tickets
     try:
@@ -56,13 +62,11 @@ def test_tc_tb_001(browser_config, test_case):
         logging.info("Element 'Book now' button not found with Explicit wait.")
         pytest.fail("Test Failed.Bug found for Book Now Button !!!")
 
-
     # Validate Ticket Price
     expected_final_price = test_case["expected_price"]
 
     if expected_final_price == booking_page.get_final_price():
         logging.info("Test Passed. Expected Final price match with Actual Final Price.")
-        logging.info("TC_TB_001 Completed..")
 
     else:
         logging.info("Test Failed. Expected Final Price does not match with Actual Final Price.")
